@@ -1,0 +1,23 @@
+.layout{
+    margin: auto;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.card{
+    background-color: rgb(195, 192, 192);
+    border-radius: 20px;
+    flex:1;
+    flex-basis: 50%;
+    padding: 20px;
+    border: 1px solid #000;
+    margin-top:50px ;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
